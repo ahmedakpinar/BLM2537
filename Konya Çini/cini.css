@@ -1,0 +1,84 @@
+            .CourierNew{
+                font-family: 'Courier New';
+                color:black;
+            }
+            .header {
+            padding: 20px;
+            text-align: left;
+            background: rgb(255, 255, 255);
+            color: white;
+            font-size: 30px;
+            }
+            .header2 {
+            padding: 10px;
+            text-align: left;
+            background:beige;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            }
+            .header3 {
+            padding: 10px;
+            text-align: left;
+            color: black;
+            font-size: 30px;
+            border-color: black;
+            }
+            .fxwidget-er{
+                margin-right: 10px;
+            }
+            .marginyap{
+                margin-left: 75px;
+            }
+            .button {
+            background-color: #1d45b3;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 12px;
+            cursor:pointer;
+            }
+            .renk{
+                color:black;
+            }
+
+            /* burada ürün kartları için özel kart ayarları var. */
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Html öğesinin arka planını gölgelendirir. */
+                max-width: 300px;
+                margin: auto; /* bir etiketi üst etiketine göre ortalamak istersek. */
+                text-align: center;
+                font-family: arial;
+              }
+              
+              .price {
+                color: grey;
+                font-size: 22px;
+              }
+              
+              .card button {
+                border: none;
+                outline: 0; /* dış çizgi yok */
+                padding: 12px; /* içeriğin etrafında boşluk oluşturmak için kullanırız. */
+                color: white;
+                background-color: #000;
+                text-align: center; 
+                cursor: pointer; /* el şekli çıkar. */
+                width: 100%;
+                font-size: 18px;
+              }
+              
+              .card button:hover {
+                opacity: 0.7;
+              }
+              /*  Kart CSS Kullanımı nasıl yapılacak
+              <div class="card">
+              <img src="/w3images/jeans3.jpg" alt="Denim Jeans" style="width:100%">
+              <h1>Tailored Jeans</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+              <p><button>Add to Cart</button></p> */
+              /* ürün kartı ayarları bu aradakiler. */
